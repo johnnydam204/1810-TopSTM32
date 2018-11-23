@@ -1,0 +1,15 @@
+--------------------------------******----------------------------------------
+--------------------------------******----------------------------------------
+KIT STM32 Ban Start
+
+Ver1.0: 08.11.2013
+
+Nha SX: MinhHaGroup
+
+Thuong Mai:
+- http://banlinhkien.vn
+Support: http://mcu.banlinhkien.vn
+
+Moi thac mac vui long lien he:
+Email: support@minhhagroup.com
+--------------------------------******----------------------------------------

@@ -1,0 +1,5 @@
+﻿Lấy linh kiện trong Proteus
+1. STM32F103C6
+2. LM016L      --> LCD16x2
+3. POT-HG      --> Biến trở
+4. LM35 	      --> Cảm biến nhiệt độ

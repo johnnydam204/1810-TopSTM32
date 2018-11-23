@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"textlcd\startup_stm32f103x6.o"
+"textlcd\main.o"
+"textlcd\stm32f1xx_it.o"
+"textlcd\stm32f1xx_hal_msp.o"
+"textlcd\textlcd.o"
+"textlcd\stm32f1xx_hal_gpio_ex.o"
+"textlcd\stm32f1xx_hal_tim.o"
+"textlcd\stm32f1xx_hal_tim_ex.o"
+"textlcd\stm32f1xx_hal.o"
+"textlcd\stm32f1xx_hal_rcc.o"
+"textlcd\stm32f1xx_hal_rcc_ex.o"
+"textlcd\stm32f1xx_hal_gpio.o"
+"textlcd\stm32f1xx_hal_dma.o"
+"textlcd\stm32f1xx_hal_cortex.o"
+"textlcd\stm32f1xx_hal_pwr.o"
+"textlcd\stm32f1xx_hal_flash.o"
+"textlcd\stm32f1xx_hal_flash_ex.o"
+"textlcd\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "TextLCD\TextLCD.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TextLCD.map" -o TextLCD\TextLCD.axf
